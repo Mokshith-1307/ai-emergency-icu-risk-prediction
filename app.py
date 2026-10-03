@@ -21,7 +21,7 @@ st.set_page_config(
 # PATHS
 # ============================================================
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent
 
 
 MODEL_FILE = BASE_DIR / "models" / "robust_icu_risk_model.pkl"
